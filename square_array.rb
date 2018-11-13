@@ -1,5 +1,5 @@
 
-=begin
+
 def square_array(array)
   
   squares = []
@@ -10,10 +10,14 @@ def square_array(array)
   return squares
 end
 
-=end
+
+=begin Alternate Solution
 
 def square_array(array)
   
  array.collect! { |item| item ** 2 }
  
 end
+
+
+=end
